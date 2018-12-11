@@ -25,10 +25,10 @@ protein-binding elements.
 
 The experimental method can be summarized in the following four steps:
 
-2.1. [Crosslinking](#2.1)<br>
-2.2. [Shearing Chromatin](#2.2)<br>
-2.3. [Immunoprecipitation](#2.3)<br>
-2.4. [Purifying and Preparing DNA for Sequencing](#2.4) 
+1. [Crosslinking](#2.1)<br>
+2. [Shearing Chromatin](#2.2)<br>
+3. [Immunoprecipitation](#2.3)<br>
+4. [Purifying and Preparing DNA for Sequencing](#2.4) 
 
 #### 2.1. Crosslinking<a name="2.1"></a>
 
