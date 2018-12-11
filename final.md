@@ -64,7 +64,8 @@ undergo standard sequencing library preparation.
 Purifying the DNA starts with reverse crosslinking the complexes. This process occurs spontaneously under heat and is commonly done in the presence of Proteinase K to protect the DNA from nucleases. Contaminant proteins are then digested and pure 
 DNA is eluted.
 
-Sequencing Library Preparation varies depending on which platform is used however a common option is paired-end Illumina sequencing, which requires poly-A tails capped with adapters.
+Sequencing Library Preparation varies depending on which platform is used however a common option is paired-end Illumina sequencing, which requires poly-A tails capped with adapters. Paired-end sequencing is chosen to provide more information on 
+the location of the fragments.
 
 ---
 
@@ -72,11 +73,11 @@ Sequencing Library Preparation varies depending on which platform is used howeve
 
 The reads sequenced in this technique are specific for sequences associated (to any degree) with the protein of interest.
 
-#### Map to Genome
+### Map to Genome
 Reads are aligned to the genome to determine their origin. The number of reads mapped to each position (or region) is counted. The frequency of reads mapped to a 
 particular region reflects the frequency that region associates with the protein 
 of interest under the experimental conditions. 
-#### Visualization
+### Visualization
 
 ![UCSCBrowser](https://github.com/bellpepper91/beng183/blob/master/ucsc_genome.png?raw=true "UCSC Browser Screenshot")
 
@@ -87,7 +88,7 @@ Visualizing these data helps interpret them. The UCSC Genome Browser visualizes
 ChIP-seq data by plotting the frequency of mapped reads as peaks alongside the 
 location of genes and other genomic elements (see Figure 4).
 
-#### Applications
+### Applications
 ChIP-seq is a versatile technique because any chromatin-associated protein 
 can be selected for, under many different conditions. Common proteins to select for include modified histones and transcription factors. 
 
