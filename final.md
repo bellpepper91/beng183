@@ -5,27 +5,27 @@ Samuel Beppler 2018
 *Hyperlink table of contents here*
 
 1. [Introduction](#1)
-2. Experimental Technique 
-3. Bioinformatic Analysis
+2. [Experimental Technique](#2) 
+3. [Bioinformatic Analysis](#3)
 
 ---
 
-## 1. Introduction
+## 1. Introduction<a name="1"></a>
 
 *intro text
 
 ---
 
-## 2. Experimental Technique
+## 2. Experimental Technique<a name="2"></a>
 
 The method can be summarized in the following four steps:
 
-2.1. Crosslink<br>
-2.2 Shear DNA<br>
-2.3. Immunoprecipitate<br>
-2.4. Purify DNA and Prepare for Sequencing 
+2.1. [Crosslink](#2.1)<br>
+2.2 [Shear DNA](#2.2)<br>
+2.3. [Immunoprecipitate](#2.3)<br>
+2.4. [Purify DNA and Prepare for Sequencing](#2.4) 
 
-#### 1) Crosslink
+#### 1) Crosslink<a name="2.1"></a>
 
 ![CrosslinkDiagram](http://www.jbc.org/content/290/44/26404/F1.medium.gif "Diagram of Crosslinking")
 
@@ -33,7 +33,7 @@ The method can be summarized in the following four steps:
 
 Crosslinking is a reversable process that covalently bonds associated molecules, such as proteins and DNA. In ChIP, we are interested in chromatin and as such, we focus on chromatin-protein interactions. Since chains of associated proteins can be crosslinked together, chromatin-protein-protein-... interactions are also of interest. Common proteins of interest are transcription factors and histones (with specific modifications).
 
-#### 2) Shear DNA
+#### 2) Shear DNA<a name="2.2"></a>
 
 ![ShearedDiagram](https://github.com/bellpepper91/beng183/blob/master/sheared.jpg?raw=true "Diagram of Sheared DNA Complexes")
 
@@ -41,7 +41,7 @@ Crosslinking is a reversable process that covalently bonds associated molecules,
 
 DNA is sonicated to shear it to a sequencable length. Crosslinks are not broken in this process because the covalent bonds are strong. The result is small fragments of chromatin in complex with proteins that associated with that small fragment.
 
-#### 3) Immunoprecipitate
+#### 3) Immunoprecipitate<a name="2.3"></a>
 
 ![Immunoprecipitation](https://github.com/bellpepper91/beng183/blob/master/immunoprecipitation.jpg?raw=true "Diagram of Immunoprecipitation")
 
@@ -51,7 +51,7 @@ Immunoprecipitation refers to the two step process of selecting and retrieving a
 - Selection employs the ability of antibodies to specifically bind to particular proteins of interest. This property makes them good selective markers.
 - Retrieval is facilitated by using antibodies attached to magnetic beads. The magnetic bead provides a mechanism for recovering the antibody, along with any complexes of protein and/or DNA bound to it. In practice, unselected DNA fragments and proteins are aspirated off while the selected complexes are immunoprecipitated.
 
-#### 4) Purify DNA and Prepare for Sequencing
+#### 4) Purify DNA and Prepare for Sequencing<a name="2.4"></a>
 
 In order to prepare the selected DNA for sequencing it must be purified and 
 undergo standard sequencing library preparation.
@@ -61,7 +61,7 @@ Sequencing Library Preparation varies depending on which platform is used howeve
 
 ---
 
-## 3. Bioinformatic Analysis
+## 3. Bioinformatic Analysis<a name="3"></a>
 * Intro to analysis
 
 #### Map to Genome
