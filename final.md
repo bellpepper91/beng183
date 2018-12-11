@@ -46,6 +46,12 @@ Immunoprecipitation refers to the two step process of selecting and retrieving a
 
 #### 4) Purify DNA and Prepare for Sequencing
 
+In order to prepare the selected DNA for sequencing it must be purified and 
+undergo standard sequencing library preparation.
+Purifying the DNA starts with reverse crosslinking the complexes. This process occurs spontaneously under heat and is commonly done in the presence of Proteinase K to protect the DNA from nucleases.
+
+Sequencing Library Preparation varies depending on which platform is used however a common option is paired-end Illumina sequencing, which requires poly-A tails capped with adapters.
+
 ## 3. Bioinformatic Analysis
 * Intro to analysis
 
