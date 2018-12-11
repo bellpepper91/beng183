@@ -1,6 +1,6 @@
 # ChIP-seq (Chromatin Immunoprecipitation followed by Next-Generation Sequencing)
 #### Samuel Beppler, 2018
-
+---
 1. [Introduction](#1)
 2. [Experimental Technique](#2) 
 3. [Bioinformatic Analysis](#3)
