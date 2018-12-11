@@ -14,7 +14,7 @@ Samuel Beppler 2018
 
 *intro text*
 
-### 2. Experimental Technique
+## 2. Experimental Technique
 
 *Intro to technqiue
 
@@ -24,7 +24,7 @@ Samuel Beppler 2018
 2 steps and 3 points. Selection. Selection. Selection.
 #### 4) Purify DNA and Prepare for Sequencing
 
-### 3. Bioinformatic Analysis
+## 3. Bioinformatic Analysis
 
 #### Map to Genome
 #### Visualization
