@@ -11,7 +11,8 @@
 
 ChIP-seq is chromatin immunoprecipitation followed by next-generation sequencing. 
 Chromatin immunoprecipitation refers to the process of using antibodies to select 
-for certain sections of chromatin. After selecting sections of chromatin, the DNA 
+for chromatin associated with a protein of interest. 
+After selecting sections of chromatin, the DNA 
 is sequenced to determine which regions of the genome were selected.
 
 ChIP-seq is used to determine where proteins of interest interact with the 
