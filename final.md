@@ -41,8 +41,8 @@ DNA is sonicated to shear it to a sequencable length. Crosslinks are not broken 
 **Figure 3.** **A)** The structure of the selection method. A magnetic bead is attached to the antibody. The antibody ("*immuno*") selects specifically for a protein of interest. **B)** A magnet is used to pull the selected complexes aside ("*precipitation*").
 
 Immunoprecipitation refers to the two step process of selecting and retrieving a protein of interest (and accompanying complexes) using antibodies.
-Selection employs the ability of antibodies to specifically bind to particular proteins of interest. This property makes them good selective markers.
-Retrieval is facilitated by using antibodies attached to magnetic beads. Attaching a magnetic bead to the antibody provides a mechanism for recovering the antibody, along with any complexes of protein and/or DNA bound to it. 
+- Selection employs the ability of antibodies to specifically bind to particular proteins of interest. This property makes them good selective markers.
+- Retrieval is facilitated by using antibodies attached to magnetic beads. Attaching a magnetic bead to the antibody provides a mechanism for recovering the antibody, along with any complexes of protein and/or DNA bound to it. 
 
 #### 4) Purify DNA and Prepare for Sequencing
 
