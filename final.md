@@ -1,4 +1,4 @@
-# ChIP-seq (Chromatin Immunoprecipitation followed by NGS Sequencing)
+# ChIP-seq (Chromatin Immunoprecipitation followed by Next-Generation Sequencing)
 
 Samuel Beppler 2018
 
@@ -60,12 +60,40 @@ Sequencing Library Preparation varies depending on which platform is used howeve
 ---
 
 ## 3. Bioinformatic Analysis<a name="3"></a>
-Sequencing the immunoprecipitated DNA returns reads of elements (and nearby sequences) that were associated with the selected protein. These sequences are mapped 
-to the genome, counting how many reads map to each position. Those data are 
-then visualized in order for humans to interpret the result. 
+
+The reads sequenced in this technique are specific for sequences associated (to any degree) with the protein of interest.
 
 #### Map to Genome
+Reads are aligned to the genome to determine their origin. The number of reads mapped to each position (or region) is counted. The frequency of reads mapped to a 
+particular region reflects the frequency that region associates with the protein 
+of interest under the experimental conditions. 
 #### Visualization
+
+![UCSCBrowser](https://github.com/bellpepper91/beng183/blob/master/ucsc_genome.png?raw=true "UCSC Browser Screenshot")
+
+**Figure 4.** An image of the UCSC Genome Browser. The data used to produce the 
+bottom two tracks (H3K4Me1 and H3K4Me3) come from ChIP-seq experiments. **Figure provided by Kent *et al*. Genome Research (2002).**
+
+Visualizing these data helps interpret them. The UCSC Genome Browser visualizes 
+ChIP-seq data by plotting the frequency of mapped reads as peaks alongside the 
+location of genes and other genomic elements (see Figure 4).
+
 #### Applications
+ChIP-seq is a versatile technique because any chromatin-associated protein 
+can be selected for, under many different conditions. Common proteins to select for include modified histones and transcription factors. 
+
+Selecting for histone modifications provides information on the state of chromatin (ie. euchromatin vs heterochromatin) in a given environment. 
+Differences between cell types, for example, can help 
+uncover the relationship between genes and cell differentiation.
+
+Selecting for transcription factors provides information on how and where 
+they have their effect at the genomic level. The site that a sex determining 
+factor binds DNA, for example, can be seen through ChIP-seq data and may 
+elucidate the purpose of a particular gene.
+ 
+## References
+Hoffman EA, Frey BL, Smith LM, Auble DT. Formaldehyde crosslinking: a tool for the study of chromatin complexes. *Journal of Biochemistry* (2015).
+
+Kent WJ, Sugnet CW, Furey TS, Roskin KM, Pringle TH, Zahler AM, Haussler D. The Human Genome Browser at UCSC. *Genome Research* (2002).
 
 
