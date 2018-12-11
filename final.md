@@ -20,9 +20,9 @@ Samuel Beppler 2018
 
 The method can be summarized in the following four steps:
 
-2.1. Caosslink<br>
+2.1. Crosslink<br>
 2.2 Shear DNA<br>
-2.3. Immunoprecipitate<br)
+2.3. Immunoprecipitate<br>
 2.4. Purify DNA and Prepare for Sequencing 
 
 #### 1) Crosslink
