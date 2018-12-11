@@ -22,7 +22,7 @@ Samuel Beppler 2018
 
 ![CrosslinkDiagram](http://www.jbc.org/content/290/44/26404/F1.medium.gif "Diagram of Crosslinking")
 
-**[Figure 1](http://www.jbc.org/content/290/44/26404.full).** Formaldehyde (*red dots*) reversably crosslinks associated proteins (*blue* and *purple*) and DNA (*black curve*) within the environment of a cell or nucleus. DNA is shown wrapped around nucleosomes (grey circles). **Figure provibed by Hoffman *et al*. The Journal of Biological Chemistry (2015) **
+**[Figure 1](http://www.jbc.org/content/290/44/26404.full).** Formaldehyde (*red dots*) reversably crosslinks associated proteins (*blue* and *purple*) and DNA (*black curve*) within the environment of a cell or nucleus. DNA is shown wrapped around nucleosomes (grey circles). **Figure provibed by Hoffman *et al*. The Journal of Biological Chemistry (2015).**
 
 Crosslinking is a reversable process that covalently bonds associated molecules, such as proteins and DNA. In ChIP, we are interested in chromatin and as such, we focus on chromatin-protein interactions. Since chains of associated proteins can be crosslinked together, chromatin-protein-protein-... interactions are also of interest. Common proteins of interest are transcription factors and histones (with specific modifications).
 
@@ -38,12 +38,11 @@ DNA is sonicated to shear it to a sequencable length. Crosslinks are not broken 
 
 ![Immunoprecipitation](https://github.com/bellpepper91/beng183/blob/master/immunoprecipitation.jpg?raw=true "Diagram of Immunoprecipitation")
 
-**Figure 3.** A) The structure of the selection method. A magnetic bead is attached to the antibody. The antibody ("*immuno*") selects specifically for a protein of interest. B) A magnet is used to pull the selected complexes aside ("*precipitation*").
+**Figure 3.** **A)** The structure of the selection method. A magnetic bead is attached to the antibody. The antibody ("*immuno*") selects specifically for a protein of interest. **B)** A magnet is used to pull the selected complexes aside ("*precipitation*").
 
-Immunoprecipitation refers to the two step process of selecting and retrieving a protein of interest using antibodies.
-Attaching a magnetic bead to the antibody provides a mechanism for recovering the antibody.
-
-At the minimum, I stress these 3 points. Selection. Selection. Selection.
+Immunoprecipitation refers to the two step process of selecting and retrieving a protein of interest (and accompanying complexes) using antibodies.
+Selection employs the ability of antibodies to specifically bind to particular proteins of interest. This property makes them good selective markers.
+Retrieval is facilitated by using antibodies attached to magnetic beads. Attaching a magnetic bead to the antibody provides a mechanism for recovering the antibody, along with any complexes of protein and/or DNA bound to it. 
 
 #### 4) Purify DNA and Prepare for Sequencing
 
