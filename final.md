@@ -25,10 +25,10 @@ protein-binding elements.
 
 The experimental method can be summarized in the following four steps:
 
-1. [Crosslinking](#2.1)<br>
-2. [Shearing Chromatin](#2.2)<br>
-3. [Immunoprecipitation](#2.3)<br>
-4. [Purifying and Preparing DNA for Sequencing](#2.4) 
+1. [Crosslinking](#2.1) - Immobilizing interactions.<br>
+2. [Shearing Chromatin](#2.2) - Fragmenting DNA.<br>
+3. [Immunoprecipitation](#2.3) - Selection.<br>
+4. [Purifying and Preparing DNA for Sequencing](#2.4) - Removing impurities. 
 
 #### 2.1. Crosslinking<a name="2.1"></a>
 
@@ -60,7 +60,9 @@ Immunoprecipitation refers to the two step process of selecting and retrieving a
 
 In order to prepare the selected DNA for sequencing it must be purified and 
 undergo standard sequencing library preparation.
-Purifying the DNA starts with reverse crosslinking the complexes. This process occurs spontaneously under heat and is commonly done in the presence of Proteinase K to protect the DNA from nucleases.
+
+Purifying the DNA starts with reverse crosslinking the complexes. This process occurs spontaneously under heat and is commonly done in the presence of Proteinase K to protect the DNA from nucleases. Contaminant proteins are then digested and pure 
+DNA is eluted.
 
 Sequencing Library Preparation varies depending on which platform is used however a common option is paired-end Illumina sequencing, which requires poly-A tails capped with adapters.
 
