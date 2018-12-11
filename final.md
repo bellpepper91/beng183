@@ -10,7 +10,15 @@ Samuel Beppler 2018
 
 ## 1. Introduction<a name="1"></a>
 
-*intro text
+ChIP-seq is chromatin immunoprecipitation followed by next-generation sequencing. 
+Chromatin immunoprecipitation refers to the process of using antibodies to select 
+for certain sections of chromatin. After selecting sections of chromatin, the DNA 
+is sequenced to determine which regions of the genome were selected.
+
+ChIP-seq is used to determine where proteins of interest interact with the 
+genome, with enough specificity to select for particular modifications of the 
+structural proteins of chromatin and a +/- 50 bp resolution for the location of 
+protein-binding elements.
 
 ---
 
@@ -84,7 +92,10 @@ can be selected for, under many different conditions. Common proteins to select 
 
 Selecting for histone modifications provides information on the state of chromatin (ie. euchromatin vs heterochromatin) in a given environment. 
 Differences between cell types, for example, can help 
-uncover the relationship between genes and cell differentiation.
+uncover the relationship between genes and cell differentiation. Also, 
+certain modifications correlate with certain types of regulatory sites, 
+such as promoters and enhancers, which can better our understanding of 
+the structure of genes.
 
 Selecting for transcription factors provides information on how and where 
 they have their effect at the genomic level. The site that a sex determining 
