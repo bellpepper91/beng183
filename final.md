@@ -32,10 +32,19 @@ Crosslinking is a reversable process that covalently bonds associated molecules,
 
 **Figure 2.** DNA is sheared to sequencable length while complexes are conserved.
 
-DNA is sheared to a sequencable length. Crosslinks are strong, so they are not broken in this process. The result is small fragments of chromatin in complex with proteins that associated with that small fragment.
+DNA is sonicated to shear it to a sequencable length. Crosslinks are not broken in this process because the covalent bonds are strong. The result is small fragments of chromatin in complex with proteins that associated with that small fragment.
 
 #### 3) Immunoprecipitate
-2 steps and 3 points. Selection. Selection. Selection.
+
+![Immunoprecipitation](https://github.com/bellpepper91/beng183/blob/master/immunoprecipitation.jpg?raw=true "Diagram of Immunoprecipitation")
+
+**Figure 3.** A) The structure of the selection method. A magnetic bead is attached to the antibody. The antibody ("*immuno*") selects specifically for a protein of interest. B) A magnet is used to pull the selected complexes aside ("*precipitation*").
+
+Immunoprecipitation refers to the two step process of selecting and retrieving a protein of interest using antibodies.
+Attaching a magnetic bead to the antibody provides a mechanism for recovering the antibody.
+
+At the minimum, I stress these 3 points. Selection. Selection. Selection.
+
 #### 4) Purify DNA and Prepare for Sequencing
 
 ## 3. Bioinformatic Analysis
