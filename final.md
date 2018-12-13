@@ -95,7 +95,7 @@ ChIP-seq data by plotting the frequency of mapped reads as peaks alongside the
 location of genes and other genomic elements (see Figure 4).
 
 #### 3.3. Applications
-ChIP-seq is a versatile technique because any chromatin-associated protein 
+ChIP-seq is a versatile technique because any chromatin-associating protein 
 can be selected for, under many different conditions. Common proteins to select for include modified histones and transcription factors. 
 
 Selecting for histone modifications provides information on the state of chromatin (ie. euchromatin vs heterochromatin) in a given environment. 
