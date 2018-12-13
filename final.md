@@ -35,9 +35,11 @@ The experimental method can be summarized in the following four steps:
 
 ![CrosslinkDiagram](http://www.jbc.org/content/290/44/26404/F1.medium.gif "Diagram of Crosslinking")
 
-**[Figure 1](http://www.jbc.org/content/290/44/26404.full).** Formaldehyde (*red dots*) reversably crosslinks associated proteins (*blue* and *purple*) and DNA (*black curve*) within the environment of a cell or nucleus. DNA is shown wrapped around nucleosomes (grey circles). **Figure provibed by Hoffman *et al*. The Journal of Biological Chemistry (2015).**
+**[Figure 1](http://www.jbc.org/content/290/44/26404.full).** Formaldehyde (*red dots*) reversably crosslinks associated proteins (*blue* and *purple*) and DNA (*black curve*) within the environment of a cell or nucleus. DNA is shown wrapped around nucleosomes (*grey circles*). **Figure provided by Hoffman *et al*. The Journal of Biological Chemistry (2015).**
 
-Crosslinking is a reversable process that covalently bonds associated molecules, such as proteins and DNA. In ChIP, we are interested in chromatin and as such, we focus on chromatin-protein interactions. Since chains of associated proteins can be crosslinked together, chromatin-protein-protein-... interactions are also of interest. Common proteins of interest are transcription factors and histones (with specific modifications).
+Crosslinking is a reversable process that covalently bonds associated molecules, such as proteins and DNA. In ChIP, we are interested in DNA in the form of 
+chromatin and as such, we focus on chromatin-protein interactions. Since chains of associated proteins can be crosslinked together, 
+chromatin-protein<sub>A</sub>-protein<sub>B</sub>-... interactions are also of interest. Common proteins of interest are transcription factors and histones (with specific modifications).
 
 #### 2.2. Shearing Chromatin<a name="2.2"></a>
 
@@ -45,13 +47,15 @@ Crosslinking is a reversable process that covalently bonds associated molecules,
 
 **Figure 2.** DNA is sheared to sequencable length while complexes are conserved.
 
-DNA is sonicated to shear it to a sequencable length. Crosslinks are not broken in this process because the covalent bonds are strong. The result is small fragments of chromatin in complex with proteins that associated with that small fragment.
+DNA is sonicated to shear it to a sequencable length. Crosslinks are not broken in this process because the covalent bonds are strong. The result is small fragments of chromatin in complex with proteins that associated with that small fragment. 
+Small fragments are necessary for next-generation sequencing and they also 
+allow for high resolution detection of protein-binding motifs and histone modifications. 
 
 #### 2.3. Immunoprecipitation<a name="2.3"></a>
 
 ![Immunoprecipitation](https://github.com/bellpepper91/beng183/blob/master/immunoprecipitation.jpg?raw=true "Diagram of Immunoprecipitation")
 
-**Figure 3.** **A)** The structure of the selection method. A magnetic bead is attached to the antibody. The antibody ("*immuno*") selects specifically for a protein of interest. **B)** A magnet is used to pull the selected complexes aside ("*precipitation*").
+**Figure 3.** **A)** The structure of the selection method. A magnetic bead is attached to the antibody. The antibody ("*immuno-*") selects specifically for a protein of interest. **B)** A magnet is used to pull the selected complexes aside ("*-precipitation*").
 
 Immunoprecipitation refers to the two step process of selecting and retrieving a protein of interest (and accompanying complexes) using antibodies.
 - Selection employs the ability of antibodies to specifically bind to particular proteins of interest. This property makes them good selective markers.
@@ -66,7 +70,8 @@ Purifying the DNA starts with reverse crosslinking the complexes. This process o
 DNA is eluted.
 
 Sequencing Library Preparation varies depending on which platform is used however a common option is paired-end Illumina sequencing, which requires poly-A tails capped with adapters. Paired-end sequencing is chosen to provide more information on 
-the location of the fragments.
+the location of the fragments, but can be forgone in very high resolution studies 
+in which fragments are less than 100 bp in length.
 
 ---
 
@@ -74,11 +79,11 @@ the location of the fragments.
 
 The reads sequenced in this technique are specific for sequences associated (to any degree) with the protein of interest.
 
-#### Map to Genome
+#### 3.1. Map to Genome
 Reads are aligned to the genome to determine their origin. The number of reads mapped to each position (or region) is counted. The frequency of reads mapped to a 
 particular region reflects the frequency that region associates with the protein 
 of interest under the experimental conditions. 
-#### Visualization
+#### 3.2. Visualization
 
 ![UCSCBrowser](https://github.com/bellpepper91/beng183/blob/master/ucsc_genome.png?raw=true "UCSC Browser Screenshot")
 
@@ -89,7 +94,7 @@ Visualizing these data helps interpret them. The UCSC Genome Browser visualizes
 ChIP-seq data by plotting the frequency of mapped reads as peaks alongside the 
 location of genes and other genomic elements (see Figure 4).
 
-#### Applications
+#### 3.3. Applications
 ChIP-seq is a versatile technique because any chromatin-associated protein 
 can be selected for, under many different conditions. Common proteins to select for include modified histones and transcription factors. 
 
